@@ -1,4 +1,4 @@
-public class student {
+public class Student {
     private String Vorname;
     private String Nachname;
     private int MatrNr;
@@ -10,13 +10,13 @@ public class student {
     ///konstruktor
      
 
-    public student(int matNr, int fsemester, String vname, String nname){
+    public Student(int matNr, int fsemester, String vname, String nname){
         this.MatrNr = matNr;
         this.Semester = fsemester;
         this.Vorname = vname;
         this.Nachname = nname;
     }
-
+    //// getter und setter
 
 
     public String getVorname() {
@@ -47,6 +47,19 @@ public class student {
         return Semester;
     }
 
-    //// getter und setter
+    public void printStudent(){
+        System.out.println(this.Vorname);
+        System.out.println(this.Nachname);
+        System.out.println(this.Studiengang);
+        System.out.println(this.Semester);
+        System.out.println(this.MatrNr);
+
+
+    }
+
+    
+    
+
+    
     
     
