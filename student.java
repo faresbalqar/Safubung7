@@ -47,6 +47,26 @@ public class Student {
         return Semester;
     }
 
+<<<<<<< HEAD
+=======
+    public void printStudent(){
+        System.out.println(this.Vorname);
+        System.out.println(this.Nachname);
+        System.out.println(this.Studiengang);
+        System.out.println(this.Semester);
+        System.out.println(this.MatrNr);
+
+
+    }
+
+    public static void main(String[] args){
+        Student Paul = new Student(12557, 2,"paul", "jann");
+    }
+
+    
+    
+
+>>>>>>> 5752948 (Saving my current progress before pulling)
     
     
     
