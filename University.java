@@ -6,13 +6,17 @@ public class University{
        Student student3 = new Student(446, 2, "Peter", "Pan");
 
        Course course1 = new Course("PROG1");
+       Exercise exercise1 = new Exercise("Methoden in Java");
 
        System.out.println(course1.register(student1));
        System.out.println(course1.register(student2));
-
+       System.out.println(exercise1.register(student1));
+       
        course1.print();
        student1.printStudent();
+
        System.out.println(course1.getCapacity());
+       
 
     }
 
