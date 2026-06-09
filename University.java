@@ -11,13 +11,13 @@ public class University{
        System.out.println(course1.register(student1));
        System.out.println(course1.register(student2));
        System.out.println(exercise1.register(student1));
-       
+
        course1.print();
        student1.printStudent();
 
        System.out.println(course1.getCapacity());
        
-
+       exercise1.print();
     }
 
 }

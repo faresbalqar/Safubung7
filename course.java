@@ -3,6 +3,7 @@ public class Course {
     private int numberOfParticipants = 0;
     private String name;
     private String lecturer;
+    private String type = "SL";
 
 public Course(String name){
     this.name = name;

@@ -36,6 +36,10 @@ public class Student {
         return Semester;
     }
 
+    public void printStudent(){
+        System.out.println("Vorname: " + this.Vorname);
+        System.out.println("Nachname: " + this.Nachname);
+        System.out.println("Matrikelnummer: " + this.MatrNr);
+    }
     
-    
-    
+}
