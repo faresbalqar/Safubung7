@@ -36,31 +36,6 @@ public class Student {
         return Semester;
     }
 
-    public void setVorname(String vorname) {
-        this.Vorname = vorname;
-    }
-
-    public void setNachname(String nachname) {
-       this.Nachname = nachname;
-    }
-
-    public void setMatrNr(int matrNr) {
-        this.MatrNr = matrNr;
-    }
-
-    public void setStudiengang(String studiengang) {
-        this.Studiengang = studiengang;
-    }
-
-    public void setSemester(int semester) {
-        this.Semester = semester;
-    }
-
-    public void printStudent(){
-        System.out.println("Vorname : " + this.Vorname);
-        System.out.println("Nachname : " + this.Nachname);
-        System.out.println("MatrNr : " + this.MatrNr);
-        System.out.println("Semester : " + this.Semester);
-    }
     
-}   
+    
+    
